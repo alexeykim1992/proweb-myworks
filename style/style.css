@@ -316,6 +316,7 @@
 .opportunity_card {
     border: none;
     border-radius: 0;
+    margin-bottom: 15px;
 }
 
 .opportunity-card__header {
@@ -362,4 +363,63 @@
     text-decoration: none;
 }
 
+.opportunity__card-body{
+    background: var(--light-black);
+    font-size: 18px;
+    color: white;
+    font-family: var(--f400);
+    line-height: 23px;
+    border: 1px solid var(--yellow);
+}
+
 /* =============== /main =========== */
+
+/* =============== footer =========== */
+.footer{
+    background: var(--light-black);    
+    padding: 20px 0;
+}
+
+.footer__nav{
+    flex-direction: column;
+}
+
+.footer__nav .nav-link.footer__nav_link{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 0;
+    line-height: 15px;
+}
+
+.footer__nav_logo{
+    margin-right: 0;
+}
+
+.footer__list{
+    margin: 45px 0;
+}
+
+.footer__info{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__info_contact{
+    font-size: 20px;
+    color: white;
+    font-family: var(--f400);
+}
+
+.footer__info_contact:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.footer__info_contact:nth-of-type(1){
+    margin-right: 15px;
+}
+
+.footer__info_contact:nth-of-type(2){
+    margin-left: 15px;
+}
+/* =============== /footer =========== */
